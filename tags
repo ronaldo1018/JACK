@@ -1,0 +1,383 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A150TISSUE	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+ABS	jack.h	57;"	d
+ABS	jack.h	74;"	d
+ADIPOSETISSUEIRCP	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+AIR	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+ALPHA	jack.h	/^enum particle_type { PROTON, ELECTRON, NEUTRON, ALPHA, UNKNOWN_P=-1 };$/;"	e	enum:particle_type
+ANGLE	jack.h	104;"	d
+ANG_DEBUG	jack.h	21;"	d
+ARENA	jack.c	/^arena *ARENA = NULL;$/;"	v
+ARENA	search.c	/^arena *ARENA = NULL;$/;"	v
+AS_REAL	jack.h	50;"	d
+AS_REAL	jack.h	67;"	d
+ATAN2	jack.h	58;"	d
+ATAN2	jack.h	75;"	d
+ATAN2	jack.h	83;"	d
+ATAN2	jack.h	88;"	d
+AZIMUTH	jack.c	/^double	    EMEAN, ESTDV, SIGMA, XYANGLE, AZIMUTH;$/;"	v
+B100BONE	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+BASE	Makefile	/^BASE=	-g  -Wall$/;"	m
+BOTTOM	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	e	enum:plane_type	file:
+BOUTFIL	jack.c	/^char *BOUTFIL = NULL;$/;"	v
+C	jack.c	/^collector   *C, **CTHR;$/;"	v
+CEN	jack.h	/^    POSITION		MIN[3], WID[3], INVWID[3], MAX[3], CEN[3], RADIUS;$/;"	m	struct:arena
+CFLAGS	Makefile	/^CFLAGS= $(PROF) $(BASE)$/;"	m
+CMD_MODE	jack.c	33;"	d	file:
+COPYSIGN	jack.h	60;"	d
+COPYSIGN	jack.h	77;"	d
+COS	jack.h	56;"	d
+COS	jack.h	73;"	d
+COS	jack.h	82;"	d
+COS	jack.h	87;"	d
+CSV	cl_trace.h	10;"	d
+CTHR	jack.c	/^collector   *C, **CTHR;$/;"	v
+CX	coord.h	2;"	d
+CY	coord.h	3;"	d
+CZ	coord.h	4;"	d
+CloneParticle	delta.c	/^void CloneParticle(particle *Q, particle *P) {$/;"	f
+DATA	search.c	/^trial	    *DATA;$/;"	v
+DEBUG	jack.c	34;"	d	file:
+DEBUG	jack.h	9;"	d
+DEL_DEBUG	jack.h	17;"	d
+DIRECTION	jack.h	102;"	d
+DO_ELASTIC	jack.h	28;"	d
+Devices	cl_util.c	/^cl_device_id* Devices = NULL;$/;"	v
+EAST	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	e	enum:plane_type	file:
+ELASTIC	jack.h	/^enum event_type { IONIZATION, ELASTIC, INELASTIC };$/;"	e	enum:event_type
+ELECTRON	jack.h	/^enum particle_type { PROTON, ELECTRON, NEUTRON, ALPHA, UNKNOWN_P=-1 };$/;"	e	enum:particle_type
+ELS_DEBUG	jack.h	19;"	d
+EMEAN	jack.c	/^double	    EMEAN, ESTDV, SIGMA, XYANGLE, AZIMUTH;$/;"	v
+ENERGY	jack.h	100;"	d
+ENRG	fluctuations.c	/^TBL_REAL	*ENRG;	\/* energies *\/$/;"	v
+ESTDV	jack.c	/^double	    EMEAN, ESTDV, SIGMA, XYANGLE, AZIMUTH;$/;"	v
+EVENT_STAMP	cl_set.h	6;"	d
+EXCLU_DELTA	jack.h	129;"	d
+EXP	jack.h	53;"	d
+EXP	jack.h	70;"	d
+EXP	jack.h	85;"	d
+EXP	jack.h	90;"	d
+Exception	exception.h	/^Exception<Std_Exception>::Exception( const std::string& s) :$/;"	f	class:Exception
+Exception	exception.h	/^Exception<Std_Exception>::Exception() :$/;"	f	class:Exception
+Exception	exception.h	/^class Exception : public Std_Exception $/;"	c
+FLUC	fluctuations.c	/^TBL_REAL	*FLUC;	\/* table values *\/$/;"	v
+FOUR_PI	fast.c	6;"	d	file:
+FOUR_PISQ	fast.c	7;"	d	file:
+FULL_TRACE	jack.h	34;"	d
+G	jack.h	/^    ENERGY		G[1];$/;"	m	struct:collector
+GETMATER	jack.h	131;"	d
+GOM_DEBUG	jack.h	25;"	d
+GenerateElasticDistances	delta.c	/^void GenerateElasticDistances(particle *P, unsigned int *seed) {$/;"	f
+GetHW	cl_util.c	/^int GetHW()$/;"	f
+GetMaterialEnergyTable	tabmgr.c	/^table *GetMaterialEnergyTable(enum particle_type T, enum material_type M) {$/;"	f
+HDR	Makefile	/^HDR=	jack.h$/;"	m
+INDEX	fluctuations.c	10;"	d	file:
+INELASTIC	jack.h	/^enum event_type { IONIZATION, ELASTIC, INELASTIC };$/;"	e	enum:event_type
+INSIDE	convert.c	9;"	d	file:
+INVWID	jack.h	/^    POSITION		MIN[3], WID[3], INVWID[3], MAX[3], CEN[3], RADIUS;$/;"	m	struct:arena
+IONIZATION	jack.h	/^enum event_type { IONIZATION, ELASTIC, INELASTIC };$/;"	e	enum:event_type
+ISEXCLU	jack.h	134;"	d
+ISTUMOR	jack.h	133;"	d
+ITHR	jack.c	/^int	    NTHREAD, NMC, *ITHR;$/;"	v
+ITHR	search.c	/^int	    ndata, NTHREAD, ITHR[MAXTHREAD];$/;"	v
+JackCL	opencl.c	/^void JackCL(int NMC, int bat_pltsel, int bat_devsel, int bat_wgropitems, int bat_batchitems,$/;"	f
+LFLAGS	Makefile	/^LFLAGS= $(PROF) $(BASE) -lm -lpthread$/;"	m
+LOCFIL	jack.c	/^char *LOCFIL = NULL;$/;"	v
+LOCFIL	search.c	/^char *LOCFIL = NULL;$/;"	v
+LOG	jack.h	52;"	d
+LOG	jack.h	69;"	d
+LOG	normal.c	39;"	d	file:
+LOG	normal.c	40;"	d	file:
+LOGIC_EXCEPTION	exception.h	81;"	d
+L_PTL	cl_set.h	4;"	d
+L_TBL	cl_set.h	2;"	d
+LoadKernel	cl_util.c	/^int LoadKernel(char *cl_filename, char **source_str, size_t *source_size)$/;"	f
+M	jack.h	/^    enum material_type	M;	    \/* type of particle for this table *\/$/;"	m	struct:table	typeref:enum:table::material_type
+MAX	jack.h	/^    POSITION		MIN[3], WID[3], INVWID[3], MAX[3], CEN[3], RADIUS;$/;"	m	struct:arena
+MAXLIN	jack.h	115;"	d
+MAXSTEP	jack.c	/^REAL MAXSTEP=0.01;$/;"	v
+MAXTHREAD	search.c	4;"	d	file:
+MAXTRACE	jack.h	110;"	d
+MAXTRACE	jack.h	112;"	d
+MAX_SOURCE_SIZE	cl_trace.h	6;"	d
+MAX_STEPS	cl_trace.h	7;"	d
+MIN	jack.h	/^    POSITION		MIN[3], WID[3], INVWID[3], MAX[3], CEN[3], RADIUS;$/;"	m	struct:arena
+MIN_TRACE	jack.h	36;"	d
+MRIFIL	jack.c	/^char *MRIFIL = NULL;$/;"	v
+MRIFIL	search.c	/^char *MRIFIL = NULL;$/;"	v
+MUSCLEWITHSUCROSE	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+M_PI	jack.h	94;"	d
+MakeParticle	particle.c	/^particle *MakeParticle(particle *P, REAL ENE, REAL ANG, REAL AZI, unsigned int *seed) {$/;"	f
+MaxEnergy	cl_trace.h	8;"	d
+MonteCarlo	jack.c	/^void MonteCarlo(collector *C, int NMC, REAL emean, REAL estdv, REAL sigma, REAL angle, REAL azimuth) {$/;"	f
+N	jack.h	/^    int			N[3], NTOTAL, NTRACE, NSTEP, NMAX;$/;"	m	struct:collector
+N	jack.h	/^    int			N[3], NTOTAL;$/;"	m	struct:arena
+NE	fluctuations.c	/^int		NE;	\/* number of Energy values *\/$/;"	v
+NEUTRON	jack.h	/^enum particle_type { PROTON, ELECTRON, NEUTRON, ALPHA, UNKNOWN_P=-1 };$/;"	e	enum:particle_type
+NITER	particle.c	3;"	d	file:
+NM	fluctuations.c	/^int		NM;	\/* number of materials *\/$/;"	v
+NMATERIAL	jack.h	126;"	d
+NMAX	jack.h	/^    int			N[3], NTOTAL, NTRACE, NSTEP, NMAX;$/;"	m	struct:collector
+NMC	jack.c	/^int	    NTHREAD, NMC, *ITHR;$/;"	v
+NORTH	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	e	enum:plane_type	file:
+NPARTICLE	jack.h	120;"	d
+NQ	fluctuations.c	/^int		NQ;	\/* number of quantiles *\/$/;"	v
+NQUEU	jack.h	117;"	d
+NSTEP	jack.h	/^    int			N[3], NTOTAL, NTRACE, NSTEP, NMAX;$/;"	m	struct:collector
+NTHREAD	jack.c	/^int	    NTHREAD, NMC, *ITHR;$/;"	v
+NTHREAD	search.c	/^int	    ndata, NTHREAD, ITHR[MAXTHREAD];$/;"	v
+NTOTAL	jack.h	/^    int			N[3], NTOTAL, NTRACE, NSTEP, NMAX;$/;"	m	struct:collector
+NTOTAL	jack.h	/^    int			N[3], NTOTAL;$/;"	m	struct:arena
+NTRACE	jack.h	/^    int			N[3], NTOTAL, NTRACE, NSTEP, NMAX;$/;"	m	struct:collector
+OBJ	Makefile	/^OBJ=	collect.o normal.o params.o proton.o queu.o table.o trace.o\\$/;"	m
+OUTSIDE	convert.c	8;"	d	file:
+OUTSIDE	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+P	jack.h	/^    enum particle_type	P;	    \/* type of particle for this table *\/$/;"	m	struct:table	typeref:enum:table::particle_type
+PAR_DEBUG	jack.h	15;"	d
+PERC	fluctuations.c	/^TBL_REAL	*PERC;	\/* energies *\/$/;"	v
+PHI_SCALE	proton.c	/^static REAL	PHI_SCALE[NMATERIAL] = {$/;"	v	file:
+PIBY2_FLOAT	fast.c	5;"	d	file:
+PIXEL	jack.c	/^REAL PIXEL = AS_REAL(0.0);$/;"	v
+PIXEL	search.c	/^REAL PIXEL = AS_REAL(0.0);$/;"	v
+PI_FLOAT	fast.c	4;"	d	file:
+POSITION	jack.h	98;"	d
+PROF	Makefile	/^PROF=	-pg$/;"	m
+PROTON	jack.h	/^enum particle_type { PROTON, ELECTRON, NEUTRON, ALPHA, UNKNOWN_P=-1 };$/;"	e	enum:particle_type
+PRT	cl_trace.h	11;"	d
+PTHR	jack.c	/^pthread_t   *PTHR;$/;"	v
+PTHR	search.c	/^pthread_t   PTHR[MAXTHREAD];$/;"	v
+P_BOOLEAN	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_FLAG	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_INTEGER	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_LIST	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_PATH	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_READ	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_REAL	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_STRING	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+P_WRIT	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	e	enum:ParamType
+ParamDescriptor	jack.h	/^typedef struct ParamDescriptor {$/;"	s
+ParamDescriptor	jack.h	/^} ParamDescriptor;$/;"	t	typeref:struct:ParamDescriptor
+ParamNames	params.c	/^static const char *ParamNames[] = {$/;"	v	file:
+ParamType	jack.h	/^enum ParamType	{ P_INTEGER, P_BOOLEAN, P_REAL, P_STRING, P_LIST, P_FLAG, P_PATH, P_READ, P_WRIT };$/;"	g
+ParseParams	params.c	/^int ParseParams(int argc, char **argv, ParamDescriptor *table, void **destinations) {$/;"	f
+PrintFluctuations	fluctuations.c	/^void PrintFluctuations() {$/;"	f
+ProcessDeltaDirection	delta.c	/^void ProcessDeltaDirection(particle *P, ANGLE Phi, ANGLE Theta) {$/;"	f
+ProtonATissue_Energy	tabmgr.c	/^table  *ProtonATissue_Energy;$/;"	v
+ProtonAdiposeTissue_Energy	tabmgr.c	/^table  *ProtonAdiposeTissue_Energy;$/;"	v
+ProtonAir_Energy	tabmgr.c	/^table  *ProtonAir_Energy;$/;"	v
+ProtonBBone_Energy	tabmgr.c	/^table  *ProtonBBone_Energy;$/;"	v
+ProtonMuscleWithSucrose_Energy	tabmgr.c	/^table  *ProtonMuscleWithSucrose_Energy;$/;"	v
+ProtonWater_Energy	tabmgr.c	/^table  *ProtonWater_Energy;$/;"	v
+Q	queu.c	/^static particle    *Q;$/;"	v	file:
+QUE_DEBUG	jack.h	13;"	d
+QueryHWinfo	cl_util.c	/^int QueryHWinfo(size_t *maxCmptUnits)$/;"	f
+RADIUS	jack.h	/^    POSITION		MIN[3], WID[3], INVWID[3], MAX[3], CEN[3], RADIUS;$/;"	m	struct:arena
+RANGE_EXCEPTION	exception.h	85;"	d
+REAL	jack.h	46;"	d
+REAL	jack.h	63;"	d
+RUNTIME_EXCEPTION	exception.h	77;"	d
+SHOW_TRACE	search.c	/^int SHOW_TRACE = 1;$/;"	v
+SIGMA	jack.c	/^double	    EMEAN, ESTDV, SIGMA, XYANGLE, AZIMUTH;$/;"	v
+SIN	jack.h	55;"	d
+SIN	jack.h	72;"	d
+SIN	jack.h	81;"	d
+SIN	jack.h	86;"	d
+SINH	jack.h	59;"	d
+SINH	jack.h	76;"	d
+SINH	jack.h	84;"	d
+SINH	jack.h	89;"	d
+SOUTH	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	e	enum:plane_type	file:
+SQRT	jack.h	54;"	d
+SQRT	jack.h	71;"	d
+SQUARE	convert.c	11;"	d	file:
+SRC	Makefile	/^SRC=	collect.c normal.c params.c proton.c queu.c table.c trace.c\\$/;"	m
+SURFACE	convert.c	10;"	d	file:
+SamplePhi	proton.c	/^static	ANGLE	SamplePhi(particle *P, enum material_type M, unsigned int *seed) {$/;"	f	file:
+SampleTheta	proton.c	/^static	ANGLE	SampleTheta(particle *P, enum material_type M, unsigned int *seed) {$/;"	f	file:
+SetCont	cl_util.c	/^int SetCont(int plt_sel, int dev_sel, cl_context *cont)$/;"	f
+SetProgKernel	cl_util.c	/^int SetProgKernel(cl_program *prog, cl_kernel *ker, cl_context context, char *source_str, size_t source_size,$/;"	f
+SetValue	params.c	/^static int SetValue(enum ParamType type, char *src, void *dst, int quiet) {$/;"	f	file:
+Simulate	search.c	/^void Simulate(int begin, int end) {$/;"	f
+TBL_DEBUG	jack.h	11;"	d
+TBL_REAL	jack.h	48;"	d
+TBL_REAL	jack.h	65;"	d
+THR	jack.c	/^REAL THR = AS_REAL(0.01);$/;"	v
+THR	search.c	/^REAL THR = AS_REAL(0.01);$/;"	v
+TOP	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	e	enum:plane_type	file:
+TOUTFIL	jack.c	/^char *TOUTFIL = NULL;$/;"	v
+TPATH	jack.c	/^char *TPATH = NULL;$/;"	v
+TPATH	search.c	/^char *TPATH = NULL;$/;"	v
+TPI_FLOAT	fast.c	3;"	d	file:
+TRACE	jack.c	/^int TRACE = 0;$/;"	v
+TRC_DEBUG	jack.h	23;"	d
+TUMOR_DELTA	jack.h	128;"	d
+ThreadSimulate	jack.c	/^void ThreadSimulate(int *n) {$/;"	f
+ThreadSimulate	search.c	/^void ThreadSimulate(int *n) {$/;"	f
+UNIFORM	jack.h	38;"	d
+UNKNOWN_M	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+UNKNOWN_P	jack.h	/^enum particle_type { PROTON, ELECTRON, NEUTRON, ALPHA, UNKNOWN_P=-1 };$/;"	e	enum:particle_type
+USE_FAST	jack.h	32;"	d
+USE_FLOAT	jack.h	30;"	d
+USE_FLOAT	jack.h	41;"	d
+VERBOSE	jack.c	/^int VERBOSE = 1;$/;"	v
+VERBOSE	search.c	/^int VERBOSE = 0;$/;"	v
+WATER	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	e	enum:material_type
+WEST	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	e	enum:plane_type	file:
+WID	jack.h	/^    POSITION		MIN[3], WID[3], INVWID[3], MAX[3], CEN[3], RADIUS;$/;"	m	struct:arena
+WhereAmI	collect.c	/^int WhereAmI(POSITION x, POSITION y, POSITION z) {$/;"	f
+XYANGLE	jack.c	/^double	    EMEAN, ESTDV, SIGMA, XYANGLE, AZIMUTH;$/;"	v
+YV	jack.h	/^    TBL_REAL		YV[1];	    \/* array of positions, ith position is x=pos[3*i],y=pos[3*i+1],z=pos[3*i+2]  *\/$/;"	m	struct:table
+ZeroValue	params.c	/^static void ZeroValue(enum ParamType type, void *dst) {$/;"	f	file:
+_EXCEPTION_H_	exception.h	14;"	d
+_g_scale1	normal.c	/^const REAL _g_scale1 = AS_REAL(1.0)\/0x7FFF;$/;"	v
+_g_scale2	normal.c	/^const REAL _g_scale2 = AS_REAL(2.0)\/0x7FFF;$/;"	v
+_g_seed	normal.c	3;"	d	file:
+_params	jack.c	/^ParamDescriptor _params[] = {$/;"	v
+_params	search.c	/^ParamDescriptor _params[] = {$/;"	v
+accumulate_collector	collect.c	/^void accumulate_collector(collector *BASE, collector *C) {$/;"	f
+add_trace_point	trace.c	/^void add_trace_point(trace *T, particle *P, int V, enum material_type M) {$/;"	f
+alloc_trace	trace.c	/^trace *alloc_trace() {$/;"	f
+allocate_collector	collect.c	/^collector *allocate_collector() {$/;"	f
+angle	search.c	/^    ANGLE	    angle, azimuth;$/;"	m	struct:trial	file:
+arena	jack.h	/^typedef struct arena {$/;"	s
+arena	jack.h	/^} arena;$/;"	t	typeref:struct:arena
+azimuth	search.c	/^    ANGLE	    angle, azimuth;$/;"	m	struct:trial	file:
+bad	search.c	/^    ENERGY	    energy, good, bad;$/;"	m	struct:trial	file:
+cl_OperateSelect	cl_util.c	/^int cl_OperateSelect(int *plt_sel, int *dev_sel, int Ntraces,$/;"	f
+cl_errChk	cl_util.c	/^int cl_errChk(cl_int ret, char *errinfo)$/;"	f
+collect	collect.c	/^void collect(collector *C, particle *P, trace *T) {$/;"	f
+collector	jack.h	/^typedef struct collector {$/;"	s
+collector	jack.h	/^} collector;$/;"	t	typeref:struct:collector
+cx	convert.c	/^static float	    rx, ry, rz, cx, cy, cz;$/;"	v	file:
+cy	convert.c	/^static float	    rx, ry, rz, cx, cy, cz;$/;"	v	file:
+cz	convert.c	/^static float	    rx, ry, rz, cx, cy, cz;$/;"	v	file:
+data	jack.h	/^    trace_point	    data[MAXTRACE]; \/* trace data *\/$/;"	m	struct:trace
+deflt	jack.h	/^    const char		*deflt;$/;"	m	struct:ParamDescriptor
+dir	jack.h	/^    DIRECTION	dir[3];	    \/* normalized direction vector *\/$/;"	m	struct:particle
+dump_dose_binary_file	dump.c	/^void dump_dose_binary_file(collector *C, char *OUTFIL) {$/;"	f
+dump_dose_text_file	dump.c	/^void dump_dose_text_file(collector *C, char *OUTFIL) {$/;"	f
+dump_good_bad_dose	dump.c	/^void dump_good_bad_dose(collector *C) {$/;"	f
+dump_trace	trace.c	/^void dump_trace(FILE *f, trace *T, particle *P) {$/;"	f
+dump_trace_header	trace.c	/^void dump_trace_header(FILE *f, trace *T, particle *P) {$/;"	f
+e	jack.h	/^    ENERGY		    e;		\/* energy at this point *\/$/;"	m	struct:trace_point
+eloss	jack.h	/^    ENERGY	eloss;$/;"	m	struct:particle
+empty	queu.c	/^int empty() {$/;"	f
+energy	jack.h	/^    ENERGY	energy;	    \/* starting energy, electron-volt (=1.60217653E-19 Joules) *\/$/;"	m	struct:particle
+energy	search.c	/^    ENERGY	    energy, good, bad;$/;"	m	struct:trial	file:
+error	add.c	/^static void error(char *s) {$/;"	f	file:
+event_type	jack.h	/^enum event_type { IONIZATION, ELASTIC, INELASTIC };$/;"	g
+fast_atan2	fast.c	/^REAL fast_atan2(REAL y, REAL x) {$/;"	f
+fast_cos	fast.c	/^REAL fast_cos(REAL theta) {$/;"	f
+fast_exp	fast.c	/^REAL fast_exp(REAL p) {$/;"	f
+fast_log	normal.c	/^static inline REAL fast_log(REAL x) {$/;"	f	file:
+fast_sin	fast.c	/^REAL fast_sin(REAL theta) {$/;"	f
+fast_sinh	fast.c	/^REAL fast_sinh(REAL p) {$/;"	f
+fast_srand	normal.c	/^inline void fast_srand(unsigned int *seed) { $/;"	f
+fastpow2	fast.c	/^static inline REAL fastpow2 (REAL p) {$/;"	f	file:
+fastrand	normal.c	/^static inline REAL fastrand(unsigned int *seed) { $/;"	f	file:
+fastrand01	normal.c	/^inline REAL fastrand01(unsigned int *seed) { $/;"	f
+free_trace	trace.c	/^void free_trace(trace *T) {$/;"	f
+gend	jack.c	/^struct timeval gstart, gend; $/;"	v	typeref:struct:
+get_fluct	fluctuations.c	/^TBL_REAL get_fluct(TBL_REAL E, enum material_type M, unsigned int *seed) {$/;"	f
+get_index	collect.c	/^static int get_index(int ix, int iy, int iz) {$/;"	f	file:
+getidx	coord.h	6;"	d
+good	search.c	/^    ENERGY	    energy, good, bad;$/;"	m	struct:trial	file:
+gstart	jack.c	/^struct timeval gstart, gend; $/;"	v	typeref:struct:timeval
+handleException	exception.h	/^handleException( const Exception_Typ& ex) $/;"	f
+initialize_collect	collect.c	/^arena *initialize_collect(char *MRIFIL, char *LOCFIL) {$/;"	f
+initialize_fluctuations	fluctuations.c	/^void initialize_fluctuations() {$/;"	f
+initialize_queu	queu.c	/^void initialize_queu(int size) {$/;"	f
+initialize_tables	tabmgr.c	/^void initialize_tables() {$/;"	f
+input_judge	cl_util.c	/^int input_judge(int *inNum, int MaxNum, char *SelMsg)$/;"	f
+inside	particle.c	/^static int inside(POSITION *X) {$/;"	f	file:
+interpol8	fluctuations.c	/^static TBL_REAL interpol8(TBL_REAL xlo, TBL_REAL xhi, TBL_REAL x,$/;"	f	file:
+interpolate_table	table.c	/^TBL_REAL interpolate_table(table *T, TBL_REAL x) {$/;"	f
+key	jack.h	/^    const char		*key;$/;"	m	struct:ParamDescriptor
+last	jack.h	/^    ENERGY	    last;	    \/* previous energy, electron-volt (=1.60217653E-19 Joules) *\/$/;"	m	struct:trace
+m	jack.h	/^    enum material_type	    m;		\/* type of material (not really needed) *\/$/;"	m	struct:trace_point	typeref:enum:trace_point::material_type
+main	add.c	/^int main(int argc, char **argv) {$/;"	f
+main	convert.c	/^int main(int argc, char **argv) {$/;"	f
+main	fluctuations.c	/^int main(int argc, char **argv) {$/;"	f
+main	hist.c	/^int main(int argc, char **argv) {$/;"	f
+main	jack.c	/^int main(int argc, char **argv) {$/;"	f
+main	search.c	/^int main(int argc, char **argv) {$/;"	f
+main	show.c	/^int main(int argc, char **argv) {$/;"	f
+mat	jack.h	/^    enum material_type	mat;$/;"	m	struct:arena	typeref:enum:arena::material_type
+matG	jack.h	/^    short		matG[1];$/;"	m	struct:arena
+material_name	jack.c	/^char *material_name[NMATERIAL] = { "WATER", "AIR", "ADIPOSETISSUEIRCP", "A150TISSUE",$/;"	v
+material_name	search.c	/^char *material_name[NMATERIAL] = { "WATER", "AIR", "ADIPOSETISSUEIRCP", "A150TISSUE",$/;"	v
+material_type	jack.h	/^enum material_type { WATER, AIR, ADIPOSETISSUEIRCP, A150TISSUE, MUSCLEWITHSUCROSE, B100BONE, OUTSIDE, UNKNOWN_M=-1 };$/;"	g
+max	jack.h	/^    TBL_REAL		min, max;   \/* limits of x variable *\/$/;"	m	struct:table
+min	jack.h	/^    TBL_REAL		min, max;   \/* limits of x variable *\/$/;"	m	struct:table
+mysize	jack.h	/^    int			mysize;	    \/* total size in bytes of this arena *\/$/;"	m	struct:arena
+mysize	jack.h	/^    int			mysize;	    \/* total size in bytes of this collector *\/$/;"	m	struct:collector
+mysize	jack.h	/^    int			mysize;	    \/* total size in bytes of this table *\/$/;"	m	struct:table
+nbad	search.c	/^    int		    ngood, nbad;$/;"	m	struct:trial	file:
+ndata	search.c	/^int	    ndata, NTHREAD, ITHR[MAXTHREAD];$/;"	v
+next_particle	queu.c	/^particle *next_particle() {$/;"	f
+ngood	search.c	/^    int		    ngood, nbad;$/;"	m	struct:trial	file:
+normal	normal.c	/^REAL normal(REAL mean, REAL sigma, unsigned int *seed) {$/;"	f
+np	jack.h	/^    int			np;	    \/* number of points in the table *\/$/;"	m	struct:table
+np	jack.h	/^    int		    np;		    \/* number of points in the trace *\/$/;"	m	struct:trace
+numDevices	cl_util.c	/^cl_uint numDevices;$/;"	v
+numPlatforms	cl_util.c	/^cl_uint numPlatforms;$/;"	v
+nx	collect.c	/^int			nx, ny, nz;$/;"	v
+ny	collect.c	/^int			nx, ny, nz;$/;"	v
+nz	collect.c	/^int			nx, ny, nz;$/;"	v
+on_sphere	convert.c	/^int on_sphere(int x, int y, int z) {$/;"	f
+particle	jack.h	/^typedef struct particle {$/;"	s
+particle	jack.h	/^} particle;$/;"	t	typeref:struct:particle
+particle_name	jack.c	/^char *particle_name[NPARTICLE] = { "PROTON", "ELECTRON", "NEUTRON", "ALPHA" };$/;"	v
+particle_name	search.c	/^char *particle_name[NPARTICLE] = { "PROTON", "ELECTRON", "NEUTRON", "ALPHA" };$/;"	v
+particle_type	jack.h	/^enum particle_type { PROTON, ELECTRON, NEUTRON, ALPHA, UNKNOWN_P=-1 };$/;"	g
+plane_name	particle.c	/^static char *plane_name[6] = { "NORTH", "EAST", "SOUTH", "WEST", "TOP", "BOTTOM" };$/;"	v	file:
+plane_type	particle.c	/^enum plane_type { NORTH, EAST, SOUTH, WEST, TOP, BOTTOM };$/;"	g	file:
+platforms	cl_util.c	/^cl_platform_id *platforms = NULL;$/;"	v
+pos	jack.h	/^    POSITION	pos[3];	    \/* starting position, mm *\/$/;"	m	struct:particle
+position_particle	particle.c	/^void position_particle(ANGLE phi, ANGLE theta, particle *P) {$/;"	f
+print_particle	particle.c	/^void print_particle(char *str, particle *P) {$/;"	f
+print_pixel	convert.c	/^void print_pixel(FILE *F, short value, int flag, int max) {$/;"	f
+proton_event	proton.c	/^void proton_event(particle *P, trace *TRACE, unsigned int *seed) {$/;"	f
+proton_ionization_event	proton.c	/^static void proton_ionization_event(arena *A, particle *P, enum material_type M, trace *TRACE, unsigned int *seed) {$/;"	f	file:
+queu_particle	queu.c	/^void queu_particle(particle *P) {$/;"	f
+queu_position	queu.c	/^static int	    queu_position, queu_size;$/;"	v	file:
+queu_size	queu.c	/^static int	    queu_position, queu_size;$/;"	v	file:
+range	jack.h	/^    TBL_REAL		range;	    \/* range of x variable *\/$/;"	m	struct:table
+read_table_from_file	table.c	/^table *read_table_from_file(char *fname) {$/;"	f
+required	jack.h	/^    int			required;$/;"	m	struct:ParamDescriptor
+reset_collect	collect.c	/^void reset_collect(collector *C) {$/;"	f
+reset_queu	queu.c	/^void reset_queu() {$/;"	f
+reset_trace	trace.c	/^void reset_trace(trace *T) {$/;"	f
+rotateUz	delta.c	/^void rotateUz(REAL *oldDir, REAL *newDir) {$/;"	f
+rx	convert.c	/^static float	    rx, ry, rz, cx, cy, cz;$/;"	v	file:
+ry	convert.c	/^static float	    rx, ry, rz, cx, cy, cz;$/;"	v	file:
+rz	convert.c	/^static float	    rx, ry, rz, cx, cy, cz;$/;"	v	file:
+split	coord.h	8;"	d
+step	jack.h	/^    TBL_REAL		step;	    \/* step size in the x variable *\/$/;"	m	struct:table
+summarize_collect	collect.c	/^void summarize_collect(collector *C, int DOPLOT) {$/;"	f
+table	jack.h	/^typedef struct table {$/;"	s
+table	jack.h	/^} table;$/;"	t	typeref:struct:table
+throw_it	exception.h	/^throw_it( const char* file, const int line, const char* detailed) $/;"	f	class:Exception
+throw_it	exception.h	/^throw_it( const char* file, const int line, const std::string& msg) $/;"	f	class:Exception
+to_elastic	jack.h	/^    POSITION	to_elastic; \/* distance to next elastic event *\/$/;"	m	struct:particle
+to_inelastic	jack.h	/^    POSITION	to_inelastic;\/* distance to next inelastic event *\/$/;"	m	struct:particle
+trace	jack.h	/^typedef struct trace {$/;"	s
+trace	jack.h	/^} trace;$/;"	t	typeref:struct:trace
+trace_point	jack.h	/^typedef struct trace_point {$/;"	s
+trace_point	jack.h	/^} trace_point;$/;"	t	typeref:struct:trace_point
+trial	search.c	/^typedef struct trial {$/;"	s	file:
+trial	search.c	/^} trial;$/;"	t	typeref:struct:trial	file:
+type	jack.h	/^    enum ParamType	type;$/;"	m	struct:ParamDescriptor	typeref:enum:ParamDescriptor::ParamType
+type	jack.h	/^    enum particle_type type;\/* type *\/$/;"	m	struct:particle	typeref:enum:particle::particle_type
+where	jack.h	/^    int			    where;	\/* index in voxel space *\/$/;"	m	struct:trace_point
+where	jack.h	/^    int		where;$/;"	m	struct:particle
+write_table_to_file	table.c	/^void write_table_to_file(table *T, char *fname) {$/;"	f
+x	jack.h	/^    POSITION		    x, y, z;	\/* position (not really needed) *\/$/;"	m	struct:trace_point
+y	jack.h	/^    POSITION		    x, y, z;	\/* position (not really needed) *\/$/;"	m	struct:trace_point
+z	jack.h	/^    POSITION		    x, y, z;	\/* position (not really needed) *\/$/;"	m	struct:trace_point
+~Exception	exception.h	/^Exception<Std_Exception>::~Exception() throw() { }$/;"	f	class:Exception

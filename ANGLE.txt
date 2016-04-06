@@ -1,0 +1,65 @@
+The simulation region is stored in the collect.c file as:
+	static	POSITION	MIN[3], WID[3];
+
+This is a cube between MIN[X/Y/Z] and MIN+WID[X/Y/Z] as the two extreme
+corners.
+
+We can easily derive two things, a center and a radius. So assume we now have
+(not that we need to remove the "static" to make them visible outside
+collect.c):
+
+	POSITION	MIN[3], WID[3], CEN[3], RADIUS;
+
+The center is just MIN+WID/2...
+
+The radius is (WID[X]^2 + WID[Y]^2 + WID[Z]^2)/4. To avoid corner cases, it
+might be good to define the radius as twice this quantity.
+
+We are given two angles, one with respect to the X axis in the X/Y plane
+(0-360) and one with respect to the Z axis (0-180).
+
+We want to determine the point on the cube at which the line would intersect
+it, as well as the direction vector to fill out the initial particle state in
+the generation of particles:
+
+	void generate_primary_particle(REAL M, REAL S, REAL ANG, REAL AZI) {
+	    particle	P;
+	    P.type = PROTON;
+	    P.pos[0] = 0.0;
+	    P.pos[1] = 0.0;
+	    P.pos[2] = 0.0;
+	    P.dir[0] = 1.0;
+	    P.dir[1] = 0.0;
+	    P.dir[2] = 0.0;
+	    P.energy = (ENERGY) normal(M, S);
+	    GenerateElasticDistances(&P);
+	#if DEBUG
+	    print_particle("make_primary", &P);
+	#endif
+	    queu_particle(&P);
+	}
+
+The point on the sphere, Q,  we are talking about has the following coordinates:
+
+	Q[X] = CEN[X] + RADIUS * sin(azimuth) * cos(angle);
+	Q[Y] = CEN[Y] + RADIUS * sin(azimuth) * sin(angle);
+	Q[Z] = CEN[Z] + RADIUS * cos(azimuth);
+
+We have six planes defined as x/y/z = MIN[X/Y/Z] and x/y/z = MIN+WID[X/Y/Z].
+
+For each plane, we can determine whether the line Q-CEN intersects that plane.
+There can be one, two or three planes touching. One for the usual case, two
+for the edges of the cube, and three for the corners of the cube. I believe we
+can take the first one and do the needed computation and we would be ok.
+
+The test for intersection is as follows: (need to fill this).
+
+Once we select the plane that has the intersection, we solve for the
+intersection of the Q-CEN line equation with the plane, which gives us the
+R[X/Y/Z] that determine the point. This give us the P.pos[] part above.
+
+For the direction, P.dir[], I believe that we have simply:
+
+	P.dir[X] = sin(azimuth) * cos(angle);
+	P.dir[Y] = sin(azimuth) * sin(angle);
+	P.dir[Z] = cos(azimuth);
